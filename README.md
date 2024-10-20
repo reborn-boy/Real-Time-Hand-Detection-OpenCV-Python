@@ -1,6 +1,16 @@
-Real-Time Hand Detection using OpenCV and Python
+# Real-Time Hand Detection using Haar Cascade Classifier
 
-This project focuses on real-time hand detection using OpenCV and Python.
-It processes live video streams to detect hands using techniques like contour detection and thresholding. 
-The implementation is designed for simple hand detection without gesture recognition or additional features. 
-It provides an efficient and straightforward approach to identifying hands in video feed.
+This project implements a **Real-Time Hand Detection System** using **Haar Cascade Classifier** and **OpenCV**. The system detects hands in video streams, providing a foundation for gesture recognition, hand tracking, and other interactive applications.
+
+## Features
+
+- Real-time hand detection using Haar-like features and Haar Cascade Classifiers.
+- Efficient use of OpenCV libraries to capture and process live video streams.
+- Customizable detection settings such as scaling and sensitivity.
+
+## Technologies Used
+
+- **Python 3.11**
+- **OpenCV**: Open-source computer vision library for real-time image and video processing.
+- **Haar Cascade Classifier**: Pre-trained model based on Haar-like features for object detection.
+
